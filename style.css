@@ -1,6 +1,10 @@
-* {
-  margin: 20;
-  padding: 20;
+body {
+  background-image: url('./img/todolist.jpg');
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-position: 80% 20%;
+  background-size: cover;
 }
 
 .completed {
@@ -11,22 +15,31 @@
   background-color: grey;
 }
 
-#criar-tarefa, #remover-finalizados {
+#criar-tarefa , #remover-finalizados {
   background-color: blue;
+  border-radius: 20px;
   color: white;
 }
 
-#apaga-tudo, #remover-selecionado {
+#apaga-tudo , #remover-selecionado {
   background-color: darkred;
+  border-radius: 20px;
   color: white;
 }
 
-#mover-cima, #mover-baixo {
+#mover-cima , #mover-baixo {
   background-color: orange;
-  color: white
+  border-radius: 20px;
+  color: white;
 }
 
 #salvar-tarefas {
   background-color: green;
+  border-radius: 20px;
+  color: white;
+}
+
+#texto-tarefa {
+  border-radius: 20px;
   color: white;
 }
